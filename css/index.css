@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    top: 0px;
+    bottom: 0px;
+    float: left;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+/*----------------------------section-----------------------------*/
+.section_index{
+    margin:0px;
+    bottom:0px;
+    width:100%;
+    float:left;
+    height: 100%;
+}
+.section_product{
+    margin:0px;
+    bottom:0px;
+    width:100%;
+    float:left;
+} 
+/*----------------------------newsletter-----------------------------*/
+.newsletter{
+    top: 30px;
+    right: 30px;
+    width: 300px;
+    z-index: 50000;
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #ccc;
+}
+/*----------------------------menue-----------------------------*/
+.menu{
+    position: fixed;
+    background-color: #171819;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #B7B8B9;
+    text-transform: uppercase;
+}
+.nav{
+    list-style:none;
+}
+.btn{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-decoration:none;
+    color: #B7B8B9;
+    font-weight: bold;
+    display:block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn:hover{
+    text-decoration:none;
+    background-color: #3f3f3f;
+    border-radius: 5px;
+}
+/*----------------------------Accueil-----------------------------*/
+.index{
+    background-color:#171819;
+    height: 100%;
+    width: 100%;
+}
+.accueil{
+    position: absolute;
+    width: 125vh;
+    margin-left: 25%;
+    margin-top: 40vh;
+    transform: translateY(-60%);
+    text-align: center;
+}
+.titre {
+    font-family: sans-serif; 
+    color: white;
+    font-size: 1.10em;
+    letter-spacing: 0.75em;
+    font-weight: bold;
+}
+.sous_titre{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+    color: white;
+    font-size: 1em;
+    border: 2px solid white;
+    padding: 20px;
+    display: block;
+}
+/*----------------------------Produit-----------------------------*/
+.contact{
+    background-color: #B7B8B9;
+    width: 100%;
+    height: 260px;
+}
+.img{
+    float: left;
+    position: relative;
+    width:25%;
+    height: 260px;
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
